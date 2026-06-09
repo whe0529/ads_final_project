@@ -1,4 +1,4 @@
-# FaaS Cold Start — Predicting Cold Start Pipeline (Slurm)
+# FaaS - Predicting Cold Start Pipeline (Slurm)
 
 Azure Functions Invocation Trace 2021 데이터를 사용해서 Moirai 시계열 예측 모델을 통해 FaaS에서의 Cold Start를 예측하는 Slurm 기반 파이프라인입니다.
 
