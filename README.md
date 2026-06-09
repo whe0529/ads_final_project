@@ -1,4 +1,4 @@
-# FaaS Cold Start — Preprocessing Pipeline (Slurm)
+# FaaS Cold Start — Preprocessing Pipeline
 
 Azure Functions Invocation Trace 2021 데이터를 Moirai 시계열 예측 모델 입력 형식으로
 전처리하는 Slurm 기반 파이프라인입니다.
@@ -59,7 +59,7 @@ conda activate faas_env
 
 > 각 `.sh` 스크립트 상단의 `source activate faas_env` 를 환경에 맞게 수정하세요.
 
-### 2. 전체 파이프라인 제출 (권장)
+### 2. 전체 파이프라인 제출
 
 ```bash
 bash scripts/submit_pipeline.sh
@@ -81,7 +81,7 @@ sbatch scripts/step1_load_raw.sh
 sbatch scripts/step2_compute_features.sh
 ```
 
-### 4. 단일 노드(디버깅용, Slurm 없이)
+### 4. 단일 노드(디버깅용)
 
 ```bash
 export PYTHONPATH=$(pwd)
